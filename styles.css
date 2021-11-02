@@ -1,0 +1,25 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.card {
+    margin: auto;
+    height: 450px;
+    width: 350px;
+    border: solid 1px gray;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+#taskList {
+    flex-grow: 1;
+    background-color: rgb(232, 165, 128);
+    margin: 10px;
+    padding: 15px;
+}
+
+#clearButton {
+    width: 50%;
+}
