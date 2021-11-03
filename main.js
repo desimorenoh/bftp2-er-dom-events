@@ -20,7 +20,7 @@ $(document).ready(function() {
     })
 
     $('#clearButton').on("click", function() {
-        $('.task').empty();
-        tasks.length = [];
+        $('.task').remove();
+        tasks = [];
     })
 });
